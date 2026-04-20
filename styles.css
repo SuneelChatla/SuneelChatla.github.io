@@ -63,4 +63,11 @@ footer{text-align:center;color:var(--muted);font-family:Arial,Helvetica,sans-ser
 .simple-bio-card{padding:1.8rem 1.9rem}
 .simple-bio-card p{margin:.85rem 0}
 .simple-links-note{margin-top:1rem}
+.profile-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem;
+  font-size: 1rem;
+}
 @media (max-width: 950px){.simple-home-grid{grid-template-columns:1fr}.home-photo-wrap{max-width:360px;margin:0 auto}}
